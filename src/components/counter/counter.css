@@ -1,0 +1,10 @@
+.counter {
+    background-color:palevioletred;
+    border-radius: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+}

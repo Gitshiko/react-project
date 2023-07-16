@@ -2,6 +2,39 @@
   text-align: center;
 }
 
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  width: 60px;
+  border-radius: 16px;
+  display: flex;
+}
+
+.btn > div {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.btn--on {
+  background-color: green;
+  justify-content: flex-start;
+}
+
+.btn--off {
+  background-color: red;
+  justify-content: flex-end;
+}
+
+.count-button {
+  padding: 1rem;
+ }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +68,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  background-color:#444;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
 }
